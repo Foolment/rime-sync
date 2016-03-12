@@ -1,2 +1,16 @@
 patch:
-  "translator/dictionary": luna_pinyin.extended
+  translator/dictionary: luna_pinyin.extended
+  engine/translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  recognizer/patterns/reverse_lookup: "`[a-z]*$"
+  schema/dependencies:
+    - emoji
+  reverse_lookup:
+    dictionary: emoji
+    enable_completion: false
+    prefix: "`"
+    tips: 〔表情〕
+  punctuator/import_preset: symbols
+  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
