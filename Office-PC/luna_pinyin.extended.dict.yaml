@@ -1,0 +1,23 @@
+# luna_pinyin
+name: luna_pinyin.extended
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+
+import_tables:
+  - luna_pinyin
+
+...
+测试	test
+•	dian
+·	dian
+①	yi
+②	er
+③	san
+④	si
+⑤	wu
+⑥	liu
+⑦	qi
+⑧	ba
+⑨	jiu
+⑩	shi

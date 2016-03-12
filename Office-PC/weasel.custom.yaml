@@ -1,0 +1,15 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Feb 03 10:26:20 2016"
+  rime_version: 1.1.2
+patch:
+  "style/horizontal": false #候选词横排
+  "style/font_face": "Microsoft YaHei Mono" #字体
+  "style/font_point": 13 #字号
+  "style/color_scheme": lost_temple #主题
+
+#针对特定程序进入时默认切换为英文状态
+#app_options/app.exe:
+#  ascii_mode: true
