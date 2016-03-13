@@ -1,0 +1,8 @@
+# squirrel.custom.yaml
+# by foolment
+
+patch:
+  "style/color_scheme": lost_temple #皮肤
+  "style/horizontal": false #候选窗横向展示
+  "style/font_point": 14 #候选词字体大小
+  "style/corner_radius": 3 #候选窗圆角半径
